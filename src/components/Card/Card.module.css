@@ -1,0 +1,44 @@
+.container {
+    padding: 0 0 1em 0;
+    margin-top: .5em;
+    background-color: var(--cinza);
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Adicionado para posicionamento absoluto dos filhos */
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.capa {
+    border-radius: 10px 10px 0px 0px;
+    height: 400px;
+    width: 282px;
+}
+
+.container h2 {
+    margin: 1em 0; /* Ajustar margens conforme necessário */
+}
+
+.favoritar {
+    width: 25px;
+    position: absolute; /* Posicionamento absoluto */
+    bottom: 10px; /* Ajuste conforme necessário para distância do fundo */
+    right: 10px; /* Ajuste conforme necessário para distância do lado direito */
+}
+
+.capas {
+    display: flex;
+    justify-content: start !important;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--preto);
+    text-align: left;
+}
+
+.container:hover{
+    box-shadow: 5px 5px 15px rgba(0.8, 0.8, 0.8, 0.8);
+    transform: scale(1.05);
+}

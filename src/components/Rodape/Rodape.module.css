@@ -1,0 +1,52 @@
+.rodape {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    align-items: center;
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 0 20px;
+    margin-top: 5em;   
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.rodape h3{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.center {
+    flex: 2;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.rodape ul li:last-child {
+    margin-right: 0;
+}
+
+.rodape ul li img {
+    width: 28px;
+}

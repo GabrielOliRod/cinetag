@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container h3{
+    margin-top: 3em;
+    margin-bottom: 7em;
+}
